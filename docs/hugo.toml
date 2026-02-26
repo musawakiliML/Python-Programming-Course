@@ -1,3 +1,11 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://musawakiliML.github.io/python-programming-course/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Python Programming - Intro to Foundations'
+theme = 'hugo-theme-relearn'
+
+# Keep URLs clean
+disablePathToLower = true
+
+[params]
+  # (Optional) Add a repository link so students can click "Edit this page"
+  BookRepo = 'https://github.com/musawakiliML/python-programming-course'
